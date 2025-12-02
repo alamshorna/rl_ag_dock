@@ -1,0 +1,1396 @@
+[I 2025-12-01 19:01:14.844 ServerApp] jupyter_lsp | extension was successfully linked.
+[I 2025-12-01 19:01:14.845 ServerApp] jupyter_server_terminals | extension was successfully linked.
+[I 2025-12-01 19:01:14.847 ServerApp] jupyterlab | extension was successfully linked.
+[I 2025-12-01 19:01:14.849 ServerApp] notebook | extension was successfully linked.
+[I 2025-12-01 19:01:14.984 ServerApp] notebook_shim | extension was successfully linked.
+[I 2025-12-01 19:01:15.323 ServerApp] nb_conda_kernels | enabled, 3 kernels found.
+[I 2025-12-01 19:01:15.329 ServerApp] notebook_shim | extension was successfully loaded.
+[I 2025-12-01 19:01:15.331 ServerApp] jupyter_lsp | extension was successfully loaded.
+[I 2025-12-01 19:01:15.331 ServerApp] jupyter_server_terminals | extension was successfully loaded.
+[I 2025-12-01 19:01:15.332 LabApp] JupyterLab extension loaded from /opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyterlab
+[I 2025-12-01 19:01:15.332 LabApp] JupyterLab application directory is /opt/miniforge-25.3.1-0/share/jupyter/lab
+[I 2025-12-01 19:01:15.332 LabApp] Extension Manager is 'pypi'.
+[I 2025-12-01 19:01:15.350 ServerApp] jupyterlab | extension was successfully loaded.
+[I 2025-12-01 19:01:15.351 ServerApp] notebook | extension was successfully loaded.
+[I 2025-12-01 19:01:15.352 ServerApp] Serving notebooks from local directory: /scratch/sa4139/rl_ag_dock
+[I 2025-12-01 19:01:15.352 ServerApp] Jupyter Server 2.17.0 is running at:
+[I 2025-12-01 19:01:15.352 ServerApp] http://10.212.14.12:8889/lab?token=b65bae9dd221aaef1f3726f6e6fe264f1e470341172997b1
+[I 2025-12-01 19:01:15.352 ServerApp]     http://127.0.0.1:8889/lab?token=b65bae9dd221aaef1f3726f6e6fe264f1e470341172997b1
+[I 2025-12-01 19:01:15.352 ServerApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 2025-12-01 19:01:15.353 ServerApp] 
+    
+    To access the server, open this file in a browser:
+        file:///home/sa4139/.local/share/jupyter/runtime/jpserver-384936-open.html
+    Or copy and paste one of these URLs:
+        http://10.212.14.12:8889/lab?token=b65bae9dd221aaef1f3726f6e6fe264f1e470341172997b1
+        http://127.0.0.1:8889/lab?token=b65bae9dd221aaef1f3726f6e6fe264f1e470341172997b1
+[I 2025-12-01 19:01:15.364 ServerApp] Skipped non-installed server(s): basedpyright, bash-language-server, dockerfile-language-server-nodejs, javascript-typescript-langserver, jedi-language-server, julia-language-server, pyrefly, pyright, python-language-server, python-lsp-server, r-languageserver, sql-language-server, texlab, typescript-language-server, unified-language-server, vscode-css-languageserver-bin, vscode-html-languageserver-bin, vscode-json-languageserver-bin, yaml-language-server
+[W 2025-12-01 19:01:26.357 LabApp] Could not determine jupyterlab build status without nodejs
+[I 2025-12-01 19:01:34.628 ServerApp] Creating new notebook in 
+[I 2025-12-01 19:01:35.091 ServerApp] Kernel started: 85cbcfb0-02cc-4762-9ccd-3bb3ffdd96eb
+[I 2025-12-01 19:01:35.506 ServerApp] Connecting to kernel 85cbcfb0-02cc-4762-9ccd-3bb3ffdd96eb.
+[W 2025-12-01 19:01:35.507 ServerApp] The websocket_ping_timeout (90000) cannot be longer than the websocket_ping_interval (30000).
+    Setting websocket_ping_timeout=30000
+[I 2025-12-01 19:01:35.650 ServerApp] Connecting to kernel 85cbcfb0-02cc-4762-9ccd-3bb3ffdd96eb.
+[I 2025-12-01 19:01:35.739 ServerApp] Connecting to kernel 85cbcfb0-02cc-4762-9ccd-3bb3ffdd96eb.
+[W 2025-12-01 19:01:47.368 ServerApp] delete /rl.ipynb
+[I 2025-12-01 19:01:52.159 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 19:03:52.707 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 19:45:34.604 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 19:46:40.052 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 19:48:40.226 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 19:48:44.959 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 19:49:34.796 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 19:51:34.936 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 19:52:16.131 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 19:52:57.532 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 19:54:57.675 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 19:55:08.853 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 19:57:09.096 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 19:59:09.683 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:00:35.136 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:00:46.348 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:01:04.501 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:01:06.074 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:01:17.808 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:01:24.242 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:01:28.621 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:01:57.190 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:02:00.947 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:02:02.206 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:02:14.492 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:02:29.745 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:02:36.330 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:02:49.117 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:04:49.639 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:05:48.674 ServerApp] Saving file at /rl.ipynb
+[W 2025-12-01 20:06:00.439 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py?content=0&hash=0&1764637560419 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.43ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:06:00.439 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py', via 404 Error
+[E 2025-12-01 20:06:00.440 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py?content=0&hash=0&1764637560419 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py?content=0&hash=0&1764637560419', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:06:00.443 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py?content=0&hash=0&1764637560420 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 4.72ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:06:00.443 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py', via 404 Error
+[E 2025-12-01 20:06:00.443 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py?content=0&hash=0&1764637560420 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py?content=0&hash=0&1764637560420', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:06:00.445 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py?content=0&hash=0&1764637560420 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.27ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:06:00.446 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py', via 404 Error
+[E 2025-12-01 20:06:00.446 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py?content=0&hash=0&1764637560420 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py?content=0&hash=0&1764637560420', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/io/parsers/readers.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:06:00.447 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/io/parsers/c_parser_wrapper.py?content=0&hash=0&1764637560420 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 2.87ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:06:00.448 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/io/parsers/c_parser_wrapper.py', via 404 Error
+[E 2025-12-01 20:06:00.448 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/io/parsers/c_parser_wrapper.py?content=0&hash=0&1764637560420 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/io/parsers/c_parser_wrapper.py?content=0&hash=0&1764637560420', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/io/parsers/c_parser_wrapper.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[I 2025-12-01 20:06:31.216 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:06:42.390 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:06:48.430 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:06:56.880 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:06:57.985 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:07:08.670 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:07:14.989 ServerApp] Saving file at /rl.ipynb
+[W 2025-12-01 20:07:47.470 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/indexes/base.py?content=0&hash=0&1764637667453 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.23ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:07:47.470 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/indexes/base.py', via 404 Error
+[E 2025-12-01 20:07:47.470 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/indexes/base.py?content=0&hash=0&1764637667453 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/indexes/base.py?content=0&hash=0&1764637667453', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/indexes/base.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:07:47.506 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/frame.py?content=0&hash=0&1764637667453 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.54ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:07:47.506 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/frame.py', via 404 Error
+[E 2025-12-01 20:07:47.507 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/frame.py?content=0&hash=0&1764637667453 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/frame.py?content=0&hash=0&1764637667453', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/frame.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:07:47.508 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/indexes/base.py?content=0&hash=0&1764637667454 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 3.19ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:07:47.509 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/indexes/base.py', via 404 Error
+[E 2025-12-01 20:07:47.509 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/indexes/base.py?content=0&hash=0&1764637667454 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/indexes/base.py?content=0&hash=0&1764637667454', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/indexes/base.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[I 2025-12-01 20:08:04.246 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:08:15.047 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:08:27.569 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:08:33.119 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:11:47.936 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:12:21.447 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:12:30.853 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:12:46.109 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:12:55.987 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:13:00.744 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:13:28.283 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:13:29.308 ServerApp] Saving file at /rl.ipynb
+[W 2025-12-01 20:13:29.839 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/frame.py?content=0&hash=0&1764638009819 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.29ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:13:29.840 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/frame.py', via 404 Error
+[E 2025-12-01 20:13:29.840 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/frame.py?content=0&hash=0&1764638009819 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/frame.py?content=0&hash=0&1764638009819', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/frame.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:13:29.842 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/frame.py?content=0&hash=0&1764638009819 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 0.97ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:13:29.842 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/frame.py', via 404 Error
+[E 2025-12-01 20:13:29.843 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/frame.py?content=0&hash=0&1764638009819 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/frame.py?content=0&hash=0&1764638009819', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/frame.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:13:29.845 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/indexing.py?content=0&hash=0&1764638009819 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 0.91ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:13:29.845 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/indexing.py', via 404 Error
+[E 2025-12-01 20:13:29.845 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/indexing.py?content=0&hash=0&1764638009819 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/indexing.py?content=0&hash=0&1764638009819', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/indexing.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[I 2025-12-01 20:14:11.077 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:14:17.959 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:14:18.790 ServerApp] Saving file at /rl.ipynb
+[W 2025-12-01 20:14:19.038 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/generic.py?content=0&hash=0&1764638059026 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.03ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:14:19.039 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/generic.py', via 404 Error
+[E 2025-12-01 20:14:19.039 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/generic.py?content=0&hash=0&1764638059026 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/generic.py?content=0&hash=0&1764638059026', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/generic.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[I 2025-12-01 20:14:25.676 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:14:30.510 ServerApp] Saving file at /rl.ipynb
+[W 2025-12-01 20:14:30.967 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638070949 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.30ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:14:30.967 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py', via 404 Error
+[E 2025-12-01 20:14:30.967 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638070949 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638070949', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:14:30.970 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/roperator.py?content=0&hash=0&1764638070949 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.02ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:14:30.970 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/roperator.py', via 404 Error
+[E 2025-12-01 20:14:30.970 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/roperator.py?content=0&hash=0&1764638070949 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/roperator.py?content=0&hash=0&1764638070949', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/roperator.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:14:30.973 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638070949 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.36ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:14:30.973 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py', via 404 Error
+[E 2025-12-01 20:14:30.973 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638070949 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638070949', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:14:30.975 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/roperator.py?content=0&hash=0&1764638070949 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 3.05ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:14:30.975 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/roperator.py', via 404 Error
+[E 2025-12-01 20:14:30.975 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/roperator.py?content=0&hash=0&1764638070949 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/roperator.py?content=0&hash=0&1764638070949', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/roperator.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:14:31.012 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/common.py?content=0&hash=0&1764638070949 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.60ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:14:31.013 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/ops/common.py', via 404 Error
+[E 2025-12-01 20:14:31.013 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/common.py?content=0&hash=0&1764638070949 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/common.py?content=0&hash=0&1764638070949', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/ops/common.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:14:31.015 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/arraylike.py?content=0&hash=0&1764638070949 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 3.81ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:14:31.015 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/arraylike.py', via 404 Error
+[E 2025-12-01 20:14:31.015 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/arraylike.py?content=0&hash=0&1764638070949 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/arraylike.py?content=0&hash=0&1764638070949', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/arraylike.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:14:31.017 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/series.py?content=0&hash=0&1764638070949 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 5.55ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:14:31.017 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/series.py', via 404 Error
+[E 2025-12-01 20:14:31.017 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/series.py?content=0&hash=0&1764638070949 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/series.py?content=0&hash=0&1764638070949', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/series.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:14:31.020 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638070949 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.26ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:14:31.020 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py', via 404 Error
+[E 2025-12-01 20:14:31.020 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638070949 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638070949', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:14:31.022 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638070949 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 2.91ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:14:31.022 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py', via 404 Error
+[E 2025-12-01 20:14:31.022 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638070949 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638070949', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:15:08.763 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/frame.py?content=0&hash=0&1764638108748 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.13ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:15:08.763 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/frame.py', via 404 Error
+[E 2025-12-01 20:15:08.763 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/frame.py?content=0&hash=0&1764638108748 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/frame.py?content=0&hash=0&1764638108748', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/frame.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:15:08.803 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/generic.py?content=0&hash=0&1764638108748 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.11ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:15:08.804 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/generic.py', via 404 Error
+[E 2025-12-01 20:15:08.804 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/generic.py?content=0&hash=0&1764638108748 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/generic.py?content=0&hash=0&1764638108748', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/generic.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:15:08.806 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/generic.py?content=0&hash=0&1764638108748 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 0.93ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:15:08.806 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/generic.py', via 404 Error
+[E 2025-12-01 20:15:08.807 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/generic.py?content=0&hash=0&1764638108748 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/generic.py?content=0&hash=0&1764638108748', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/generic.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[I 2025-12-01 20:16:30.693 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:16:31.742 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:16:32.733 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:16:37.726 ServerApp] Saving file at /rl.ipynb
+[W 2025-12-01 20:16:37.968 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638197954 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.09ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:16:37.969 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py', via 404 Error
+[E 2025-12-01 20:16:37.969 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638197954 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638197954', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:16:37.971 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/roperator.py?content=0&hash=0&1764638197954 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.01ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:16:37.972 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/roperator.py', via 404 Error
+[E 2025-12-01 20:16:37.972 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/roperator.py?content=0&hash=0&1764638197954 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/roperator.py?content=0&hash=0&1764638197954', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/roperator.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:16:37.974 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/roperator.py?content=0&hash=0&1764638197954 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.22ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:16:37.975 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/roperator.py', via 404 Error
+[E 2025-12-01 20:16:37.975 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/roperator.py?content=0&hash=0&1764638197954 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/roperator.py?content=0&hash=0&1764638197954', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/roperator.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:16:37.976 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638197954 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 2.89ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:16:37.977 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py', via 404 Error
+[E 2025-12-01 20:16:37.977 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638197954 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638197954', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:16:38.005 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/common.py?content=0&hash=0&1764638197954 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.80ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:16:38.006 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/ops/common.py', via 404 Error
+[E 2025-12-01 20:16:38.006 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/common.py?content=0&hash=0&1764638197954 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/common.py?content=0&hash=0&1764638197954', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/ops/common.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:16:38.007 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/arraylike.py?content=0&hash=0&1764638197954 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 3.50ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:16:38.008 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/arraylike.py', via 404 Error
+[E 2025-12-01 20:16:38.008 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/arraylike.py?content=0&hash=0&1764638197954 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/arraylike.py?content=0&hash=0&1764638197954', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/arraylike.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:16:38.009 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/series.py?content=0&hash=0&1764638197954 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 5.08ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:16:38.010 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/series.py', via 404 Error
+[E 2025-12-01 20:16:38.010 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/series.py?content=0&hash=0&1764638197954 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/series.py?content=0&hash=0&1764638197954', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/series.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:16:38.013 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638197954 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 0.93ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:16:38.013 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py', via 404 Error
+[E 2025-12-01 20:16:38.013 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638197954 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638197954', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[W 2025-12-01 20:16:38.016 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638197954 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 0.91ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:16:38.016 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py', via 404 Error
+[E 2025-12-01 20:16:38.016 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638197954 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py?content=0&hash=0&1764638197954', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/ops/array_ops.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[I 2025-12-01 20:17:15.231 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:17:18.323 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:17:23.864 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:17:32.513 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:17:51.190 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:18:00.625 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:18:03.204 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:18:25.378 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:18:29.723 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:18:31.085 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:18:36.582 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:18:42.917 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:18:45.283 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:19:05.625 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:19:15.576 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:19:16.168 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:19:28.973 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:19:40.735 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:19:47.050 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:20:01.732 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:20:31.594 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:20:38.690 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:20:41.358 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:23:52.449 ServerApp] Saving file at /rl.ipynb
+[W 2025-12-01 20:23:53.302 ServerApp] 404 GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/base.py?content=0&hash=0&1764638633283 (462bcb4f8af94ea69f249fd2a13d55ef@10.251.67.155) 1.32ms referer=http://10.212.14.12:8889/lab/tree/rl.ipynb
+[I 2025-12-01 20:23:53.303 ServerApp] Refusing to serve hidden file or directory '/scratch/sa4139/rl_ag_dock/.venv/lib/python3.12/site-packages/pandas/core/base.py', via 404 Error
+[E 2025-12-01 20:23:53.303 ServerApp] Uncaught exception GET /api/contents/.venv/lib/python3.12/site-packages/pandas/core/base.py?content=0&hash=0&1764638633283 (10.251.67.155)
+    HTTPServerRequest(protocol='http', host='10.212.14.12:8889', method='GET', uri='/api/contents/.venv/lib/python3.12/site-packages/pandas/core/base.py?content=0&hash=0&1764638633283', version='HTTP/1.1', remote_ip='10.251.67.155')
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 156, in get
+        model = await ensure_async(
+                ^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+        result = await obj
+                 ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 928, in get
+        model = await self._file_model(
+                ^^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 829, in _file_model
+        model = self._base_model(path)
+                ^^^^^^^^^^^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/filemanager.py", line 237, in _base_model
+        raise web.HTTPError(404, four_o_four)
+    tornado.web.HTTPError: HTTP 404: Not Found (file or directory does not exist: '.venv/lib/python3.12/site-packages/pandas/core/base.py')
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 1848, in _execute
+        result = await result
+                 ^^^^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/auth/decorator.py", line 73, in inner
+        return await out
+               ^^^^^^^^^
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 182, in get
+        await self._finish_error(
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/jupyter_server/services/contents/handlers.py", line 114, in _finish_error
+        self.write(message)
+      File "/opt/miniforge-25.3.1-0/lib/python3.12/site-packages/tornado/web.py", line 964, in write
+        raise RuntimeError("Cannot write() after finish()")
+    RuntimeError: Cannot write() after finish()
+[I 2025-12-01 20:23:59.258 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:24:00.418 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:25:59.437 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:27:32.054 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:33:32.663 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:33:40.463 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:34:45.808 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:34:47.428 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:34:51.692 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:35:59.645 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:36:21.122 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:36:27.267 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:36:30.585 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:36:34.313 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:36:44.135 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:36:49.591 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:36:57.035 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:39:24.205 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:39:48.158 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:39:50.905 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:39:56.826 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:39:57.425 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:41:17.141 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:41:39.940 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:43:40.679 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:45:00.560 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:45:05.928 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:45:08.275 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:45:18.141 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:46:19.728 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:46:26.804 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:46:35.182 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:46:50.266 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:46:59.469 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:47:10.443 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:49:10.579 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:49:21.036 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:55:22.675 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:55:34.045 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:56:04.693 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:58:04.832 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:58:12.031 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:58:21.241 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:58:28.684 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 20:58:44.135 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 21:00:44.681 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 21:02:45.685 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 21:23:02.063 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 21:23:04.638 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 21:23:05.690 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 21:23:51.141 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 21:24:14.374 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 21:24:19.142 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 21:24:25.943 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 21:24:29.055 ServerApp] Saving file at /rl.ipynb
+[I 2025-12-01 21:24:38.361 ServerApp] Saving file at /rl.ipynb
+slurmstepd-lambda-scalar: error: *** JOB 2097 ON lambda-scalar CANCELLED AT 2025-12-01T23:01:33 DUE TO TIME LIMIT ***
