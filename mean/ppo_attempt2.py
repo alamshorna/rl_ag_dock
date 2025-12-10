@@ -30,8 +30,6 @@ from Bio.PDB.vectors import Vector
 from Bio.PDB.Polypeptide import three_to_index
 
 from ppo_actor_critic import GNNActorCritic
-from ab_setup import build_graph_from_pdb, kabsch_rigid_transform, apply_rigid_transform
-from mc_egnn import MCAttEGNN
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
